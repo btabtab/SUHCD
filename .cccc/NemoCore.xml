@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module NemoCore-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="464" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="62" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="68" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="6.824" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.912" level="0" />
+<weighted_methods_per_class_unity value="29" level="0" />
+<weighted_methods_per_class_visibility value="1" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="65" />
+<lines_of_code value="21" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="24" level="0" />
+<lines_of_code_per_line_of_comment value="0.875" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>NemoCore()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="273" />
+</extent>
+<lines_of_code value="16" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>clearRegisters()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="329" />
+</extent>
+<lines_of_code value="13" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>controlsCycle()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="570" />
+</extent>
+<lines_of_code value="87" level="1" />
+<McCabes_cyclomatic_complexity value="18" level="1" />
+<lines_of_comment value="5" level="0" />
+<lines_of_code_per_line_of_comment value="17.400" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="3.600" level="0" />
+</member_function>
+<member_function>
+<name>drawCyle()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="533" />
+</extent>
+<lines_of_code value="30" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="2" level="0" />
+<lines_of_code_per_line_of_comment value="15.000" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>drawMemoryBank(byte *,int,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="429" />
+</extent>
+<lines_of_code value="51" level="1" />
+<McCabes_cyclomatic_complexity value="9" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="8.500" level="1" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="1.500" level="0" />
+</member_function>
+<member_function>
+<name>drawRegister(int,int,char *,byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="526" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeADD()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="243" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeCycle()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="418" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeInstruction()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="366" />
+</extent>
+<lines_of_code value="41" level="1" />
+<McCabes_cyclomatic_complexity value="8" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>executeJump(byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="198" />
+</extent>
+<lines_of_code value="20" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="9" level="0" />
+<lines_of_code_per_line_of_comment value="2.222" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeLD()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="257" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeRamSet()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="253" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeReturn()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="226" />
+</extent>
+<lines_of_code value="14" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>executeSetRamPointer()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="249" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getRegister(byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="155" />
+</extent>
+<lines_of_code value="35" level="1" />
+<McCabes_cyclomatic_complexity value="11" level="1" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="******" level="2" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="******" level="2" />
+</member_function>
+<member_function>
+<name>goToNextRomBank()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="124" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>initialiseStackInformation()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="146" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="10" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>loadInstructionDataIntoRegisters()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="411" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>logMessage(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="71" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>logMessageExternally(string)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="295" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>manuallyPassInstructionData(byte,byte,byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="353" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>printCurrentStackContents()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="300" />
+</extent>
+<lines_of_code value="10" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetAllMemoryBanks()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="319" />
+</extent>
+<lines_of_code value="9" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>resetMemoryBank(byte *)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="312" />
+</extent>
+<lines_of_code value="7" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setInstructionAtAddress(byte,byte,byte,byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="359" />
+</extent>
+<lines_of_code value="6" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setRAMPointer(byte)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="349" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="4" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>tickProgramCounter()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="262" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>unwindProgramCounter()</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="266" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>visualiseMemoryBank(byte *,int,int,int)</name>
+<extent>
+<description>definition</description>
+<source_reference file="Emulator/NemoCore.hpp" line="495" />
+</extent>
+<lines_of_code value="19" level="0" />
+<McCabes_cyclomatic_complexity value="2" level="0" />
+<lines_of_comment value="8" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>NemoCore</name>
+<client_module>
+</client_module>
+<supplier_module>
+<name>ALU</name>
+<visible>false</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="69" />
+</extent>
+<name>bool</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="112" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="120" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="121" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="122" />
+</extent>
+<name>byte</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="82" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="Emulator/NemoCore.hpp" line="83" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="96" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="102" />
+</extent>
+<extent>
+<description>has by reference</description>
+<source_reference file="Emulator/NemoCore.hpp" line="108" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="111" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="114" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="115" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="116" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="118" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="155" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="198" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="Emulator/NemoCore.hpp" line="312" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="349" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="353" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="353" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="353" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="359" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="359" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="359" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="359" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="Emulator/NemoCore.hpp" line="429" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="Emulator/NemoCore.hpp" line="495" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="526" />
+</extent>
+<name>string</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="71" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="Emulator/NemoCore.hpp" line="295" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

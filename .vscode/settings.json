@@ -1,0 +1,6 @@
+{
+    // "files.watcherInclude": ["../../CELL/lib/"],
+    "files.associations": {
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/clang++"
+}

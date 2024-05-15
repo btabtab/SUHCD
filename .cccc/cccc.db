@@ -1,0 +1,183 @@
+CCCC_Module@ALU@class@
+CCCC_ModExt@ALU@class@Emulator/ALU.hpp@6@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Module@Color@@
+CCCC_Module@ErrorCodes@enum@
+CCCC_ModExt@ErrorCodes@enum@Emulator/ErrorHandling.hpp@6@definition@?????@LOC:0 COM:0 MVG:0@?@d@
+CCCC_Module@Instructions@enum@
+CCCC_ModExt@Instructions@enum@Emulator/NemoCore.hpp@12@definition@?????@LOC:0 COM:0 MVG:0@?@d@
+CCCC_Module@NemoCore@class@
+CCCC_ModExt@NemoCore@class@Emulator/NemoCore.hpp@65@definition@F???2@LOC:21 COM:24 MVG:0@2@d@
+CCCC_Module@Registers@enum@
+CCCC_ModExt@Registers@enum@Emulator/NemoCore.hpp@54@definition@?????@LOC:0 COM:0 MVG:0@?@d@
+CCCC_Module@ResourceHandler@class@
+CCCC_ModExt@ResourceHandler@class@Emulator/ResourceHandler.hpp@3@definition@F???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Module@Sound@@
+CCCC_Module@Texture@@
+CCCC_Module@UIElement@class@
+CCCC_ModExt@UIElement@class@Emulator/UIElement.hpp@3@definition@F???2@LOC:8 COM:0 MVG:0@2@d@
+CCCC_Module@anonymous@@
+CCCC_Module@bool@@
+CCCC_Module@byte@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@string@@
+CCCC_Module@vector@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@ALU@ALU@@()@
+CCCC_MemExt@ALU@ALU@@()@Emulator/ALU.hpp@13@definition@F???0@LOC:6 COM:0 MVG:0@0@d@
+CCCC_Member@ALU@addRegisterContents@@()@
+CCCC_MemExt@ALU@addRegisterContents@@()@Emulator/ALU.hpp@25@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@ALU@getResultOfMaths@@()@
+CCCC_MemExt@ALU@getResultOfMaths@@()@Emulator/ALU.hpp@29@definition@F???0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@ALU@setMathRegisters@@(byte,byte)@
+CCCC_MemExt@ALU@setMathRegisters@@(byte,byte)@Emulator/ALU.hpp@20@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@NemoCore@NemoCore@@()@
+CCCC_MemExt@NemoCore@NemoCore@@()@Emulator/NemoCore.hpp@273@definition@F???0@LOC:16 COM:0 MVG:0@0@d@
+CCCC_Member@NemoCore@clearRegisters@@()@
+CCCC_MemExt@NemoCore@clearRegisters@@()@Emulator/NemoCore.hpp@329@definition@F????@LOC:13 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@controlsCycle@@()@
+CCCC_MemExt@NemoCore@controlsCycle@@()@Emulator/NemoCore.hpp@570@definition@F????@LOC:87 COM:5 MVG:18@?@d@
+CCCC_Member@NemoCore@drawCyle@@()@
+CCCC_MemExt@NemoCore@drawCyle@@()@Emulator/NemoCore.hpp@533@definition@F????@LOC:30 COM:2 MVG:2@?@d@
+CCCC_Member@NemoCore@drawMemoryBank@@(byte *,int,int,int,int)@
+CCCC_MemExt@NemoCore@drawMemoryBank@@(byte *,int,int,int,int)@Emulator/NemoCore.hpp@429@definition@F????@LOC:51 COM:6 MVG:9@?@d@
+CCCC_Member@NemoCore@drawRegister@@(int,int,char *,byte)@
+CCCC_MemExt@NemoCore@drawRegister@@(int,int,char *,byte)@Emulator/NemoCore.hpp@526@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@executeADD@@()@
+CCCC_MemExt@NemoCore@executeADD@@()@Emulator/NemoCore.hpp@243@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@executeCycle@@()@
+CCCC_MemExt@NemoCore@executeCycle@@()@Emulator/NemoCore.hpp@418@definition@F????@LOC:10 COM:0 MVG:2@?@d@
+CCCC_Member@NemoCore@executeInstruction@@()@
+CCCC_MemExt@NemoCore@executeInstruction@@()@Emulator/NemoCore.hpp@366@definition@F????@LOC:41 COM:0 MVG:8@?@d@
+CCCC_Member@NemoCore@executeJump@@(byte)@
+CCCC_MemExt@NemoCore@executeJump@@(byte)@Emulator/NemoCore.hpp@198@definition@F????@LOC:20 COM:9 MVG:2@?@d@
+CCCC_Member@NemoCore@executeLD@@()@
+CCCC_MemExt@NemoCore@executeLD@@()@Emulator/NemoCore.hpp@257@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@executeRamSet@@()@
+CCCC_MemExt@NemoCore@executeRamSet@@()@Emulator/NemoCore.hpp@253@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@executeReturn@@()@
+CCCC_MemExt@NemoCore@executeReturn@@()@Emulator/NemoCore.hpp@226@definition@F????@LOC:14 COM:0 MVG:2@?@d@
+CCCC_Member@NemoCore@executeSetRamPointer@@()@
+CCCC_MemExt@NemoCore@executeSetRamPointer@@()@Emulator/NemoCore.hpp@249@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@getRegister@@(byte)@
+CCCC_MemExt@NemoCore@getRegister@@(byte)@Emulator/NemoCore.hpp@155@definition@F????@LOC:35 COM:0 MVG:11@?@d@
+CCCC_Member@NemoCore@goToNextRomBank@@()@
+CCCC_MemExt@NemoCore@goToNextRomBank@@()@Emulator/NemoCore.hpp@124@definition@F????@LOC:9 COM:0 MVG:1@?@d@
+CCCC_Member@NemoCore@initialiseStackInformation@@()@
+CCCC_MemExt@NemoCore@initialiseStackInformation@@()@Emulator/NemoCore.hpp@146@definition@F????@LOC:8 COM:10 MVG:1@?@d@
+CCCC_Member@NemoCore@loadInstructionDataIntoRegisters@@()@
+CCCC_MemExt@NemoCore@loadInstructionDataIntoRegisters@@()@Emulator/NemoCore.hpp@411@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@logMessage@@(string)@
+CCCC_MemExt@NemoCore@logMessage@@(string)@Emulator/NemoCore.hpp@71@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@logMessageExternally@@(string)@
+CCCC_MemExt@NemoCore@logMessageExternally@@(string)@Emulator/NemoCore.hpp@295@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@manuallyPassInstructionData@@(byte,byte,byte)@
+CCCC_MemExt@NemoCore@manuallyPassInstructionData@@(byte,byte,byte)@Emulator/NemoCore.hpp@353@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@printCurrentStackContents@@()@
+CCCC_MemExt@NemoCore@printCurrentStackContents@@()@Emulator/NemoCore.hpp@300@definition@F????@LOC:10 COM:0 MVG:2@?@d@
+CCCC_Member@NemoCore@resetAllMemoryBanks@@()@
+CCCC_MemExt@NemoCore@resetAllMemoryBanks@@()@Emulator/NemoCore.hpp@319@definition@F????@LOC:9 COM:0 MVG:1@?@d@
+CCCC_Member@NemoCore@resetMemoryBank@@(byte *)@
+CCCC_MemExt@NemoCore@resetMemoryBank@@(byte *)@Emulator/NemoCore.hpp@312@definition@F????@LOC:7 COM:0 MVG:1@?@d@
+CCCC_Member@NemoCore@setInstructionAtAddress@@(byte,byte,byte,byte)@
+CCCC_MemExt@NemoCore@setInstructionAtAddress@@(byte,byte,byte,byte)@Emulator/NemoCore.hpp@359@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@setRAMPointer@@(byte)@
+CCCC_MemExt@NemoCore@setRAMPointer@@(byte)@Emulator/NemoCore.hpp@349@definition@F????@LOC:4 COM:4 MVG:0@?@d@
+CCCC_Member@NemoCore@tickProgramCounter@@()@
+CCCC_MemExt@NemoCore@tickProgramCounter@@()@Emulator/NemoCore.hpp@262@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@unwindProgramCounter@@()@
+CCCC_MemExt@NemoCore@unwindProgramCounter@@()@Emulator/NemoCore.hpp@266@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@NemoCore@visualiseMemoryBank@@(byte *,int,int,int)@
+CCCC_MemExt@NemoCore@visualiseMemoryBank@@(byte *,int,int,int)@Emulator/NemoCore.hpp@495@definition@F????@LOC:19 COM:8 MVG:2@?@d@
+CCCC_Member@ResourceHandler@ResourceHandler@@()@
+CCCC_MemExt@ResourceHandler@ResourceHandler@@()@Emulator/ResourceHandler.hpp@10@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@ResourceHandler@addSound@@(Sound)@
+CCCC_MemExt@ResourceHandler@addSound@@(Sound)@Emulator/ResourceHandler.hpp@16@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@ResourceHandler@addTexture@@(Texture)@
+CCCC_MemExt@ResourceHandler@addTexture@@(Texture)@Emulator/ResourceHandler.hpp@12@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@ResourceHandler@getSoundAtIndex@@(int)@
+CCCC_MemExt@ResourceHandler@getSoundAtIndex@@(int)@Emulator/ResourceHandler.hpp@25@definition@F???0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@ResourceHandler@getTextureAtIndex@@(int)@
+CCCC_MemExt@ResourceHandler@getTextureAtIndex@@(int)@Emulator/ResourceHandler.hpp@21@definition@F???0@LOC:4 COM:0 MVG:1@0@d@
+CCCC_Member@UIElement@UIElement@@(int,int,int,int,Color)@
+CCCC_MemExt@UIElement@UIElement@@(int,int,int,int,Color)@Emulator/UIElement.hpp@13@definition@F???0@LOC:10 COM:0 MVG:0@0@d@
+CCCC_Member@UIElement@drawUIElemelent@@()@
+CCCC_MemExt@UIElement@drawUIElemelent@@()@Emulator/UIElement.hpp@23@definition@F???0@LOC:9 COM:0 MVG:2@0@d@
+CCCC_Member@UIElement@wasThisClicked@@()@
+CCCC_MemExt@UIElement@wasThisClicked@@()@Emulator/UIElement.hpp@32@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@UIElement@wasThisHoveredOver@@()@
+CCCC_MemExt@UIElement@wasThisHoveredOver@@()@Emulator/UIElement.hpp@35@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@anonymous@breakThePoint@@()@
+CCCC_MemExt@anonymous@breakThePoint@@()@Emulator/ErrorHandling.hpp@23@declaration@F????@LOC:0 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@throwError@@(string,int)@
+CCCC_MemExt@anonymous@throwError@@(string,int)@Emulator/ErrorHandling.hpp@13@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@triggerBreakPoint@@()@
+CCCC_MemExt@anonymous@triggerBreakPoint@@()@Emulator/ErrorHandling.hpp@22@declaration@F????@LOC:1 COM:6 MVG:0@?@D@
+CCCC_UseRel@byte@ALU@
+CCCC_UseExt@byte@ALU@Emulator/ALU.hpp@9@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@byte@ALU@Emulator/ALU.hpp@10@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@byte@ALU@Emulator/ALU.hpp@20@pass by value@F???0@*@0@P@
+CCCC_UseExt@byte@ALU@Emulator/ALU.hpp@20@pass by value@F???0@*@0@P@
+CCCC_UseRel@ALU@NemoCore@
+CCCC_UseExt@ALU@NemoCore@Emulator/NemoCore.hpp@69@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@bool@NemoCore@
+CCCC_UseExt@bool@NemoCore@Emulator/NemoCore.hpp@112@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@bool@NemoCore@Emulator/NemoCore.hpp@120@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@bool@NemoCore@Emulator/NemoCore.hpp@121@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@bool@NemoCore@Emulator/NemoCore.hpp@122@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseRel@byte@NemoCore@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@82@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@83@has by reference@F????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@96@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@102@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@108@has by reference@F????@LOC:0 COM:0 MVG:0@?@h@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@111@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@114@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@115@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@116@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@118@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@155@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@198@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@312@pass by reference@F????@*@?@p@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@349@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@353@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@353@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@353@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@359@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@359@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@359@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@359@pass by value@F????@*@?@P@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@429@pass by reference@F????@*@?@p@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@495@pass by reference@F????@*@?@p@
+CCCC_UseExt@byte@NemoCore@Emulator/NemoCore.hpp@526@pass by value@F????@*@?@P@
+CCCC_UseRel@string@NemoCore@
+CCCC_UseExt@string@NemoCore@Emulator/NemoCore.hpp@71@pass by value@F????@*@?@P@
+CCCC_UseExt@string@NemoCore@Emulator/NemoCore.hpp@295@pass by value@F????@*@?@P@
+CCCC_UseRel@Sound@ResourceHandler@
+CCCC_UseExt@Sound@ResourceHandler@Emulator/ResourceHandler.hpp@16@pass by value@F???0@*@0@P@
+CCCC_UseRel@Texture@ResourceHandler@
+CCCC_UseExt@Texture@ResourceHandler@Emulator/ResourceHandler.hpp@12@pass by value@F???0@*@0@P@
+CCCC_UseRel@vector@ResourceHandler@
+CCCC_UseExt@vector@ResourceHandler@Emulator/ResourceHandler.hpp@6@has by value@?????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@vector@ResourceHandler@Emulator/ResourceHandler.hpp@7@has by value@?????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseRel@Color@UIElement@
+CCCC_UseExt@Color@UIElement@Emulator/UIElement.hpp@7@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@Color@UIElement@Emulator/UIElement.hpp@13@pass by value@F???0@*@0@P@
+CCCC_UseRel@bool@UIElement@
+CCCC_UseExt@bool@UIElement@Emulator/UIElement.hpp@9@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@bool@UIElement@Emulator/UIElement.hpp@10@has by value@????2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_RejExt@Emulator/ALU.hpp@1@<file scope items>@F???2@LOC:0 COM:0 MVG:0@2@r@
+CCCC_RejExt@Emulator/ErrorHandling.hpp@1@<file scope items>@F????@LOC:7 COM:0 MVG:0@?@r@
+CCCC_RejExt@Emulator/NemoCore.hpp@1@<file scope items>@F???2@LOC:19 COM:30 MVG:0@2@r@
+CCCC_RejExt@Emulator/NemoDefinitions.hpp@1@<file scope items>@?????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@Emulator/ResourceHandler.hpp@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
+CCCC_RejExt@Emulator/UIElement.hpp@1@<file scope items>@F???2@LOC:1 COM:0 MVG:0@2@r@
